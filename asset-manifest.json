@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HackodishaProject2022/static/css/main.e54a83cd.css",
+    "main.js": "/HackodishaProject2022/static/js/main.6728f1b1.js",
+    "static/media/cyclone.jpg": "/HackodishaProject2022/static/media/cyclone.0e33e500721d0565c006.jpg",
+    "static/media/canyon.jpg": "/HackodishaProject2022/static/media/canyon.993a820588ba89d900a5.jpg",
+    "static/media/banner.png": "/HackodishaProject2022/static/media/banner.0c515cbebb876531d44f.png",
+    "static/media/urbanflood.jpg": "/HackodishaProject2022/static/media/urbanflood.e252fe9584d0b6d147f6.jpg",
+    "static/media/orissa.jpg": "/HackodishaProject2022/static/media/orissa.a3032ea595737cb95236.jpg",
+    "static/media/flood.jpg": "/HackodishaProject2022/static/media/flood.8e097ae6ea0995fd2ea7.jpg",
+    "static/media/heatwave.jpg": "/HackodishaProject2022/static/media/heatwave.c3715ef945488ff9ec54.jpg",
+    "static/media/earthquake.jpg": "/HackodishaProject2022/static/media/earthquake.32b6232a00fcc8a3076d.jpg",
+    "static/media/tsunami.jpg": "/HackodishaProject2022/static/media/tsunami.259a21c3b7f772a3325f.jpg",
+    "static/media/logo.jpg": "/HackodishaProject2022/static/media/logo.f0fe9310a8e443063c42.jpg",
+    "index.html": "/HackodishaProject2022/index.html",
+    "main.e54a83cd.css.map": "/HackodishaProject2022/static/css/main.e54a83cd.css.map",
+    "main.6728f1b1.js.map": "/HackodishaProject2022/static/js/main.6728f1b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e54a83cd.css",
+    "static/js/main.6728f1b1.js"
+  ]
+}
