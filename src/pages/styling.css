@@ -1,0 +1,504 @@
+*{
+    font-family:'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    color: inherit;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration : inherit;
+    color: inherit;
+    align-items: center;
+}
+
+.header{
+    font-family: 'Roboto Slab', serif;
+    margin: 2%;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+}
+
+.disasterType{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 25px;
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.form-wrapper {
+    padding: 5px 20px;
+}
+
+.form-wrapper label {
+    padding: 20px 0;
+}
+
+li {
+    margin: 15px;
+}
+
+  
+a:visited{
+    text-decoration: none;
+}
+  
+a:active{
+    text-decoration: none;
+}
+
+.cyclone{
+    color: white;
+}
+.cyclone::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green; 
+    display: block;
+    margin: auto;
+    transition: 1s;
+}
+
+.cyclone:hover::after{
+    width: 110px;
+}
+
+.tsunami::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green; 
+    display: block;
+    margin: auto;
+    transition: 1s;
+  
+}
+
+.tsunami:hover::after{
+    width: 120px;
+}
+
+.heatwave::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green; 
+    display: block;
+    margin: auto;
+    transition: 1s;
+  
+}
+
+.heatwave:hover::after{
+    width: 150px;
+}
+
+.landslide::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green; 
+    display: block;
+    margin: auto;
+    transition: 1s;
+  
+}
+
+.landslide:hover::after{
+    width: 135px;
+}
+
+
+.urbanflood::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green; 
+    display: block;
+    margin: auto;
+    transition: 1s;
+  
+}
+
+.urbanflood:hover::after{
+    width: 165px;
+}
+
+
+.flood::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green; 
+    display: block;
+    margin: auto;
+    transition: 1s;
+  
+}
+
+.flood:hover::after{
+    width: 80px;
+}
+
+.earthquake::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: green; 
+    display: block;
+    margin: auto;
+    transition: 1s;
+  
+}
+
+.earthquake:hover::after{
+    width: 160px;
+}
+
+.bottom{
+    padding-top: 20px;
+    padding-bottom: -10px;
+    text-decoration: underline;
+    text-align: center;
+    color: white;
+}
+
+.bottom p{
+    color: white;
+}
+
+.earthquakes{
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #a18128ef;
+    height: 1300px;
+}
+
+.earthquakespic {
+    padding-right: 50px;
+    padding-top: 250px;
+    width:500px;
+    float:right;
+}
+
+.elist {
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.floods {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(56, 147, 233);
+    height: 400px;
+}
+
+.floodpic {
+    padding-top: 20px;
+    padding-right: 50px;
+    width: 400px;
+    float: right;    
+}
+
+.flist{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.urbanfloods {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(59, 78, 165);
+    height: 525px;
+}
+
+.urbanfloodspic {
+    margin-top: 75px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+.uflist {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.cyclones {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(214, 214, 214);
+    height: 625px;
+}
+
+.cyclonespic {
+    padding-top: 100px;
+    padding-right: 50px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.clist {
+    font-size: 25px;
+    margin-right: 60px;
+}
+
+.heatwaves {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(236, 183, 67);
+    height: 825px;
+}
+
+.heatwavespic {
+    padding-top: 175px;
+    padding-right: 50px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.hlist {
+    font-size: 25px;
+    margin-right: 60px;
+}
+
+.tsunamis {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: rgb(78, 97, 180);
+    height: 800px;
+}
+
+.tsunamispic {
+    padding-top: 150px;
+    padding-right: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.tlist {
+    font-size: 25px;
+    margin-right: 60px;
+}
+
+.imageSpace{
+    width: 33.33%;
+    float: right, top;
+}
+
+.create_post{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    width: 75px;
+    text-align: center;
+    font-family:'Roboto Slab', serif;
+    right: 512px;
+    margin-top: 20px;
+}
+
+.createheader{
+    text-align: center;
+    font-family:'Roboto Slab', serif;
+}
+.createText1{
+    font-family:'Roboto Slab', serif;
+}
+
+.createText2{
+    font-family:'Roboto Slab', serif;
+}
+
+.textbox{
+    height: 200px;
+    width: 500px;
+    font-family: 'Roboto Slab', serif;
+    text-align: top;
+}
+
+.predisasters{
+    font-family:'Roboto Slab', serif;
+}
+
+.preDisasterHeader{
+    text-align: center;
+}
+
+.alert{
+    background-color: rgb(200, 200, 200);
+    width: 1050px;
+    height: auto;
+}
+
+.alertheader{
+    background-color: #898FC4;
+}
+
+.alertheadere{
+    background-color: #B0AC89;
+}
+
+.alertwhat{
+    font-size: 30px;
+    width: 200px;
+    float: left;
+}
+
+.alertwhere{
+    font-size:20px;
+    width: 200px;
+    color: #3A3A3A;
+}
+
+.timestamp{
+    width: 200px;
+    font-size: 12px;
+    text-align: right;
+}
+
+.alertimage{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 90px;
+    height: auto;
+}
+
+.locationButton {
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.locationButton:hover {
+    background: orange;
+    border-color: orange;
+}
+
+.text-box{
+    width:rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px; /*10 from top, 0 from left and right, 40 from bottom*/
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+}
+
+.gotolocation{
+    display: inline-block;
+    text-decoration: none;
+    height: 50px;
+    width: 200px;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding-left: auto;
+    padding-top: 10px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.gotolocation p{
+    color: white;
+}
+
+.gotolocation:hover{
+    border: 1px solid rgb(222, 222, 222);
+    background: rgb(5, 143, 90);
+    transition: 1s;
+}
+
+.gotolocation:hover p{
+    color: rgb(216, 216, 216);
+}
+
+.aboutpage{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4,9,30,0.7)),url(../components/images/banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 14.28%;
+}
+
+.continent {
+    color:#ffffff;
+    text-align: center;
+}
+
+.locationpage{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4,9,30,0.7)),url(../components/images/canyon.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.disasterspage{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4,9,30,0.7)),url(../components/images/orissa.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    color: white;
+}
+
+.disasterType p{
+    color: white;
+}
+
+.phoneList li{
+    list-style-type: none;
+}
+
+.contactsDiv {
+    margin-left: 10px;
+}
