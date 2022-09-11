@@ -15,7 +15,7 @@ import Contacts from './pages/contacts';
   
 function App() {
 return (
-    <Router>
+    <Router basename="/HackodishaProject2022">
     <Navbar/>
     <Routes>
         <Route exact path="/" element ={<Home/>} />
