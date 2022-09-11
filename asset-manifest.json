@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HackodishaProject2022/static/css/main.e54a83cd.css",
-    "main.js": "/HackodishaProject2022/static/js/main.1b91a437.js",
+    "main.js": "/HackodishaProject2022/static/js/main.57d5c3f7.js",
     "static/media/cyclone.jpg": "/HackodishaProject2022/static/media/cyclone.0e33e500721d0565c006.jpg",
     "static/media/canyon.jpg": "/HackodishaProject2022/static/media/canyon.993a820588ba89d900a5.jpg",
     "static/media/banner.png": "/HackodishaProject2022/static/media/banner.0c515cbebb876531d44f.png",
@@ -14,10 +14,10 @@
     "static/media/logo.jpg": "/HackodishaProject2022/static/media/logo.f0fe9310a8e443063c42.jpg",
     "index.html": "/HackodishaProject2022/index.html",
     "main.e54a83cd.css.map": "/HackodishaProject2022/static/css/main.e54a83cd.css.map",
-    "main.1b91a437.js.map": "/HackodishaProject2022/static/js/main.1b91a437.js.map"
+    "main.57d5c3f7.js.map": "/HackodishaProject2022/static/js/main.57d5c3f7.js.map"
   },
   "entrypoints": [
     "static/css/main.e54a83cd.css",
-    "static/js/main.1b91a437.js"
+    "static/js/main.57d5c3f7.js"
   ]
 }
