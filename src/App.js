@@ -19,15 +19,15 @@ return (
     <Navbar/>
     <Routes>
         <Route exact path="/" element ={<Home/>} />
-        <Route path='/home' element={<Home/>} />
-        <Route path='/afterDisasters' element={<AfterDisasters/>} />
-        <Route path='/contacts' element={<Contacts/>} />
-        <Route path='/createPost' element={<CreatePost/>} />
-        <Route path='/disastersOdisha' element={<DisastersOdisha/>} />
-        <Route path='/location' element={<Location/>} />
-        <Route path='/preDisasters' element={<PreDisasters/>} />
-        <Route path='/sign-up' element={<SignUp/>} />
-        <Route path='/social' element={<Social/>} />
+        <Route path='/HackodishaProject2022/home' element={<Home/>} />
+        <Route path='/HackodishaProject2022/afterDisasters' element={<AfterDisasters/>} />
+        <Route path='/HackodishaProject2022/contacts' element={<Contacts/>} />
+        <Route path='/HackodishaProject2022/createPost' element={<CreatePost/>} />
+        <Route path='/HackodishaProject2022/disastersOdisha' element={<DisastersOdisha/>} />
+        <Route path='/HackodishaProject2022/location' element={<Location/>} />
+        <Route path='/HackodishaProject2022/preDisasters' element={<PreDisasters/>} />
+        <Route path='/HackodishaProject2022/sign-up' element={<SignUp/>} />
+        <Route path='/HackodishaProject2022/social' element={<Social/>} />
     </Routes>
     </Router>
 );
