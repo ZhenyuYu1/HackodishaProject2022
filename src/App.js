@@ -18,8 +18,8 @@ return (
     <Router>
     <Navbar/>
     <Routes>
-        <Route exact path="/" element ={<Home/>} />
-        <Route path='/HackodishaProject2022/home' element={<Home/>} />
+        <Route exact path="/HackodishaProject2022/" element ={<Home/>} />
+        <Route path='/HackodishaProject2022/src/pages/home' element={<Home/>} />
         <Route path='/HackodishaProject2022/afterDisasters' element={<AfterDisasters/>} />
         <Route path='/HackodishaProject2022/contacts' element={<Contacts/>} />
         <Route path='/HackodishaProject2022/createPost' element={<CreatePost/>} />
